@@ -1,0 +1,11 @@
+.footer{
+    margin-top: 200px;
+    display: grid;
+    place-items: center;
+}
+
+.footerImage {
+    width: 1300px;
+    height: 340px;
+    
+}

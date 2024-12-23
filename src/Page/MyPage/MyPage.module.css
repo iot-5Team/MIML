@@ -1,0 +1,141 @@
+.main{
+    margin: 0 calc((100% - 1300px) / 2); /* 폭 조절 */
+}
+
+.body{
+    margin-top: 80px;
+    display: flex;
+}
+
+.userImage{
+    height: 100px;
+}
+
+.userName{
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.userSetting{
+    display: flex;
+    margin-left: auto;
+    flex-direction: column;
+}
+
+.profileButton{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.divBox{
+    display: flex;
+}
+
+.div{
+    margin-left: 100px;
+    width: 200px;
+    height: 300px;
+
+}
+
+.monthBox{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    border-bottom: 2px solid #937DC2;
+    width: 600px;
+    margin: auto;
+}
+
+.otherMonth{
+    display: flex;
+    font-size: 30px;
+    color: gray;
+    align-items: flex-end;
+}
+
+.month{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.recordBox{
+    display: flex;
+    justify-content: center;
+}
+
+.recordBoxIn{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-sizing: border-box; /* 요소의 크기 계산에 padding 및 border를 포함 */
+    margin: 20px;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    background-color: #f6f6f6;
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.20); /* 그림자 추가 */
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    color: gray;
+    /* justify-content: center; 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    border: 2px solid #937DC2;
+}
+
+.recordBoxIn2{
+    display: flex;
+    flex: 3;
+    margin-left: 45px;
+    justify-content: center; /* 수평 중앙 정렬 */
+    padding-top: 30px;  
+    box-sizing: border-box; /* 요소의 크기 계산에 padding 및 border를 포함 */
+    color: rgb(59, 59, 59);
+    font-size: 40px;
+}
+
+.recordBoxIn3{
+    /* display: flex;
+    flex: 1; */
+    margin-right: 20px;
+    padding-top: 30px;  
+    text-align: right;
+    align-items: center; /* 수직 중앙 정렬 */
+    color: gray;
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.recordBoxContainer{
+    display: flex;
+    width:250px;
+    flex-direction: row;
+    align-items: center;
+    justify-content:"flex-end";
+}
+
+.margin{
+    margin-top: 300px;
+}
+
+.settingBox{
+    color: gray;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #937DC2;
+    font-size: 30px;
+}
+
+.settingIn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    line-height: 2; /* 원하는 상하 간격으로 조절 */
+}

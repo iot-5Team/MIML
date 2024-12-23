@@ -1,0 +1,32 @@
+
+
+.categoryBody{
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;  
+    white-space: nowrap; /* 자동 줄바꿈이 되지 않도록 함 */
+    border : 0px;
+    background-color: #ffffff;
+  
+}
+.categoryItems{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* 다크모드 환경 */
+.categoryBodyDarkmode{
+    
+    display: flex;
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-around;  
+    white-space: nowrap; /* 자동 줄바꿈이 되지 않도록 함 */
+    border : 0px;
+    background-color: #1E1E22;
+    color: #ffffff;
+}
+
+
